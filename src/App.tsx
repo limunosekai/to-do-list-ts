@@ -1,11 +1,9 @@
 import React from 'react';
-import './App.css';
+import TodoApp from './containers/TodoApp';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div>
-      ㅎㅇ
-    </div>
+    <TodoApp />
   );
 }
 
